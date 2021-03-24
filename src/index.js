@@ -14,6 +14,7 @@ const createWindow = () => {
   });
 
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
+  mainWindow.setMenuBarVisibility(false)
 };
 app.on('ready', createWindow);
 app.on('window-all-closed', () => {
