@@ -3,6 +3,7 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  user-select: none;
 }
 #nav-bar{
   position: absolute;
@@ -39,7 +40,23 @@ body {
   text-transform: uppercase;
   outline: none;
   position: relative;
-  left: 6vw;
+  left: 3vw;
   top: 31vh;
   background-color: transparent;
+  width: 11vw;
+  height: 5vh;
+}
+
+#apptitle-app-manager{
+  position: absolute;
+  top: 23vh;
+  left: 3vw;
+  font-weight: lighter;
+  border-bottom: 2px solid black;
+}
+
+#free-stamp{
+  z-index: 3;
+  visibility: none;
+  width: 3vw;
 }
