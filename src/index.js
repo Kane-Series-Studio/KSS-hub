@@ -11,6 +11,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    title: "Kane Series Hub"
   });
 
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
