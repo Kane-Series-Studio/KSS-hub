@@ -4,3 +4,16 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
+#nav-bar{
+  position: absolute;
+  width: 100vw;
+  height: 30vh;
+  left: 0vw;
+  top: 0vh;
+  box-shadow: 3px 3px 11px 4px black;
+}
+
+#title-bar{
+  font-weight: lighter;
+  font-size: 4em;
+}
